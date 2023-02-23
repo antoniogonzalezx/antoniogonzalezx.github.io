@@ -1,0 +1,91 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  h1, h2, h3 {
+    font-weight: normal;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .logo h1 {
+    font-size: 32px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #333;
+  }
+  
+  nav a:hover {
+    color: #0077b5;
+  }
+  
+  /* Main styles */
+  main {
+    padding: 40px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    margin-bottom: 40px;
+  }
+  
+  .project img {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .social-media img {
+    margin-right: 10px;
+  }
+  
